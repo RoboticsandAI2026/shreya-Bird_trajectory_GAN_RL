@@ -1,8 +1,7 @@
 streamlit==1.44.1
 tensorflow==2.20.0rc0
 tensorflow-addons>=0.23.0
-tensorflow-estimator>=2.20.0rc0
-tensorflow-intel==2.20.0rc0; platform_system=="Windows"
+# tensorflow-estimator==2.15.0  # only if your code explicitly imports it
 tensorflow-io-gcs-filesystem>=0.36.0
 keras>=2.20.0rc0
 numpy>=1.26.0
